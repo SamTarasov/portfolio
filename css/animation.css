@@ -1,0 +1,17 @@
+.header_text {
+    white-space: wrap;
+    overflow: hidden;
+    border-right: 0.15em solid rgb(0, 0, 0);
+    animation: blink-caret 0.75s step-end infinite;
+    border-right: none;
+}
+
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: rgb(255, 180, 58);
+    }
+}
